@@ -94,11 +94,9 @@ void Sharp_Mono_LCD::begin() {
   SPI.setDataMode(SPI_MODE0);
   SPI.setBitOrder(LSBFIRST);
 #endif
-
+  clearDisplay();
 
 }
-
-
 
 // 1<<n is a costly operation on AVR -- table usu. smaller & faster
 static const uint8_t PROGMEM
