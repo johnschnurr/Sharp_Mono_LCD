@@ -23,7 +23,8 @@
   Arduino Due:      ICSP 4            ICSP 3             Any Pin
   Arduino Mega:     ICSP 4            ICSP 3             Any Pin
 
- You may need to adjust the SPI Clock Divisor to get the fastest operation.
+ You may need to adjust the SPI Clock Divisor to get the fastest reliable
+ operation.
  Although the Display is rated for 1Mhz, I was able to use a divisor of 8 
  on the Due (12 MHz) and a divisor of 6 on the Zero (8 MHz).
 
